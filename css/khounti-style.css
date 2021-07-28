@@ -11,10 +11,10 @@ body{
   
 }
 .khounti-menu-container{
-    width:  100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 .khounti-logo-container{
@@ -319,6 +319,118 @@ body{
     margin-right: 0px;
 
 }
+
+/* responsive */
+
+@media only screen and (max-width: 1024px) {
+    #section-1 .khounti-content-container .khounti-content {
+        width:86%;
+    }
+    .khounti-title-container h1 {
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+      
+    }
+    .khounti-title-container .khounti-icon {
+        font-size: 4.5em;
+       
+    }
+    .khounti-content h2 {
+       
+        font-size: 1em;
+       
+    }
+    .khounti-content p {
+     
+        font-size: 1em;
+      
+    }
+    .khounti-content .khounti-button {
+        font-size: 0.9em;
+        height: 58px;
+        width: 49%; 
+    }
+    #section-2 .khounti-content-container-2 .khounti-section-2-content h2 {
+        font-size: 1.7em;
+
+    }
+    #section-2 .khounti-content-container-2 .khounti-section-2-content p {
+       
+        font-size: 0.7em;
+       
+    }
+    .khounti-navs-container, .khounti-logo-container {
+    padding: 50px;
+}
+.khounti-title-container {
+   
+    margin-top: 2em;
+    width: 82%;
+ }
+ .service i {
+    font-size: 5em;
+}
+#section-2 .khounti-content-container-2 {
+  
+    top: 21%;
+   
+}
+.khounti-section-2-content .first-row1 {
+   
+    margin-top: 20%;
+
+  
+}
+.first-row-paragraph {
+  
+    font-size: 0.5em;
+}
+.service .first-row-title {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .first-row-paragraph {
+        font-size: 0.8em;
+    }
+    .service .first-row-title {
+        font-size: 1.2em;
+        font-weight: 900;
+    }
+    .khounti-title-container h1 {
+       
+        font-size: 3em;
+    }
+    .khounti-content h2 {
+       
+        font-size: 1.5em;
+        
+    }
+    .khounti-content .khounti-button {
+        
+        width: 44%;
+       
+    }
+    .khounti-section-2-content .first-row1 {
+       
+        margin-top: 18%;
+    
+    }
+    #section-2 {
+        height: 220vh;
+        width: 100%;
+        background-color: #000B36;
+    }
+
+
+}
+
+
 
 
 
